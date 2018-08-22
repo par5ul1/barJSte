@@ -1,0 +1,17 @@
+{
+  "name": "barjste",
+  "version": "1.0.0",
+  "description": "A jQuery plugin to highlight (as you would a textbook) DOM elements.",
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "highlight",
+    "barjste",
+    "par5ul1"
+  ],
+  "author": "Parsuli",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
+}
