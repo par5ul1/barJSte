@@ -1,0 +1,25 @@
+{
+  "name": "barjste",
+  "title": "barJSte - Highlight your DOM",
+  "description": "A jQuery plugin to highlight (as you would a textbook) DOM elements.",
+  "keywords": [
+    "jquery-plugins",
+    "barjste",
+    "highlight text",
+    "highlight"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Parsuli",
+    "url": "https://github.com/par5ul1"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
+}
