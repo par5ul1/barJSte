@@ -2,16 +2,25 @@
   "name": "barjste",
   "version": "1.0.0",
   "description": "A jQuery plugin to highlight (as you would a textbook) DOM elements.",
+  "main": "src/barjste.jquery.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/par5ul1/barJSte.git"
+  },
   "keywords": [
     "jquery-plugin",
-    "ecosystem:jquery",
+    "ecosystem:jquery"
     "highlight",
     "barjste",
     "par5ul1"
   ],
   "author": "Parsuli",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/par5ul1/barJSte/issues"
+  },
+  "homepage": "https://github.com/par5ul1/barJSte#readme",
   "dependencies": {
-    "jquery": ">=1.4"
+    "tipso": "^1.0.8"
   }
 }
