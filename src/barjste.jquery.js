@@ -30,11 +30,37 @@
 
         this.wrapInner('<span class="barjste--highlight"></span>');
 
-      } else if (action == 'unhighlight') {
+      }
+
+      if (action == 'unhighlight') {
 
         this.each(function() {
           $(this).html($(this).contents().contents());
         })
+
+      }
+
+      if (action == 'redact') {
+
+        if ($('.barjste--redact')[0]) {
+
+          if (props.color) {
+
+            $('#barjste-redact').html(
+
+              '.barjste--redact{background-color: '+props.color+'}'
+
+            )
+
+          }
+
+        } else {
+
+          $('html > head').append($('<style id="barjste-redact" type="text/css">.barjste--redact{background-color: '+(props.color || '#000')+'}</style>'));
+
+        }
+
+        this.wrapInner('<span class="barjste--redact"></span>');
 
       }
 
